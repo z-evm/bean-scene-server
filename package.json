@@ -1,0 +1,36 @@
+{
+  "name": "bean-scene-express",
+  "version": "1.0.0",
+  "description": "This is the backend server for the Bean Scene reservation and ordering application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bean-Scene-Zachary-and-Alex/Bean-Scene-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bean-Scene-Zachary-and-Alex/Bean-Scene-Express/issues"
+  },
+  "homepage": "https://github.com/Bean-Scene-Zachary-and-Alex/Bean-Scene-Express#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.7.3",
+    "mongosh": "^2.3.2",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^7.6.2"
+  }
+}
