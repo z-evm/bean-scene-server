@@ -1,30 +1,68 @@
 # Bean Scene Express Server
 
-This is the backend server for the Bean Scene ordering application.
+This repository contains the backend server for the Bean Scene restaurant ordering application. The server is built with Node.js, Express, and MongoDB, and serves as the API for the React Native mobile app used by restaurant customers and staff.
+
+## Project Overview
+
+Bean Scene is a comprehensive restaurant management solution with two main components:
+
+- **Ordering System (this repo & 'bean-scene-react-native'):**  
+  - Backend: Node.js, Express, MongoDB, Mongoose  
+  - Mobile App: React Native  
+  - Features: Menu browsing, order placement, user authentication, and order management.
+
+- **Booking System & Website:**  
+  - Backend: ASP.NET MVC, Entity Framework, SQLite  
+  - Frontend: Bootstrap  
+  - Features: Table reservations, restaurant information, and web-based management.
+
+Both systems are developed for Bean Scene, providing seamless integration between mobile ordering and web-based booking.
 
 ## Technologies Used
 
-Node.js (Version 16.20.1 LTS)
-Express.js
-MongoDB (Version 8.0)
-Mongosh (Version 2.3.2)
-Mongoose (8.7.2)
+- Node.js (16.20.1 LTS)
+- Express.js
+- MongoDB (8.0)
+- Jest (for testing)
 
-## Setup
+## Setup Instructions
 
-Clone the repository
-Set up package: npm init -y
-Install dependencies: npm install
-Install Express: npm install express
-Install MongoDB Node.js driver: npm install mongodb@6.10.0
-Install Mongoose: npm install mongoose
-Install Bcrypt: npm install bcrypt
-Install Jest: npm install jest --save-dev
-Install Supertest: npm install supertest --save-dev
-Create a .env file
-Configure environment variables
-Start the MongoDB server: mongod
-Verify connection: mongosh mongodb://localhost:27017
-Start the Express server: node server.js
-Seed the database: node seed.js
-Use the Mongosh shell in WSL: mongosh
+1. **Clone the repository**
+2. **Install dependencies**
+   ```
+   npm install
+   ```
+3. **Create a `.env` file**  
+   Add your environment variables (e.g., `SECRET_JWT_CODE`, `PORT`, etc.)
+
+4. **Start MongoDB server**  
+   Ensure MongoDB is running locally:
+   ```
+   mongod
+   ```
+
+5. **Seed the database (optional)**
+   ```
+   node seed.js
+   ```
+
+6. **Start the Express server**
+   ```
+   npm start
+   ```
+
+7. **Run tests**
+   ```
+   npm test
+   ```
+
+## Useful Commands
+
+- **Verify MongoDB connection:**  
+  ```
+  mongosh mongodb://localhost:27017
+  ```
+- **Use Mongosh shell in WSL:**  
+  ```
+  mongosh
+  ```
