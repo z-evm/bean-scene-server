@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bean-Scene-Zachary-and-Alex/Bean-Scene-Express.git"
+    "url": "git+https://github.com/z-evm/bean-scene-server.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bean-Scene-Zachary-and-Alex/Bean-Scene-Express/issues"
+    "url": "https://github.com/z-evm/bean-scene-server/issues"
   },
-  "homepage": "https://github.com/Bean-Scene-Zachary-and-Alex/Bean-Scene-Express#readme",
+  "homepage": "https://github.com/z-evm/bean-scene-server",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",

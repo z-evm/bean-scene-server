@@ -23,7 +23,7 @@ Both systems are developed for Bean Scene, providing seamless integration betwee
 - Node.js (16.20.1 LTS)
 - Express.js
 - MongoDB (8.0)
-- Jest (for testing)
+- Jest & Supertest (for testing)
 
 ## Setup Instructions
 
