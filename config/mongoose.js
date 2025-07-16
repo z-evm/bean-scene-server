@@ -12,7 +12,7 @@ const connectDB = async () => {
   try {
     // Create and connect to an in-memory MongoDB server for testing.
     if (process.env.NODE_ENV === 'test') { 
-      const mongoServer = await MongoMemoryServer.create();
+      mongoServer = await MongoMemoryServer.create();
       const uri = mongoServer.getUri(); // Get the connection URI for the in-memory database.
       await mongoose.connect(uri); // Establish connection to the in-memory database.
       console.log('In-memory MongoDB connected for testing');
